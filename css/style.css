@@ -1,7 +1,8 @@
 /********** BASE ELEMENT STYLES **********/
 
 body {
-	background-image: url(../img/wood-background-2-edited.jpg)
+	background-image: url(../img/wood-background-2-edited.jpg);
+	margin-top: 0;
 }
 
 h2,
@@ -16,7 +17,7 @@ p {
 
 .wrapper {
 	background-color: white;
-	margin: 0 100px;
+	margin: 0 50px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -25,6 +26,12 @@ p {
 
 .banner {
 	margin-top: 2em;
+	display: flex;
+}
+
+.banner img {
+	margin: auto;
+	width: 90%;
 }
 
 ul {
@@ -42,20 +49,22 @@ ul {
 .moffett-info img {
 	padding: 0.8em;
 	margin: auto;
+	width: 80%;
 }
 
 .nav img {
 	border: solid 1px gray;
+	margin-bottom: -25px;
 }
 
 .nav p {
 	z-index: 100;
 	position: relative;
-	top: -100px;
+	top: -60px;
 	font-size: 1.2em;
 	color: #bdbdbd;
-	padding-top: 0.8em;
-	padding-bottom: 0.8em;
+	padding-top: 0.6em;
+	padding-bottom: 0.5em;
 	width: 70%;
 	border: solid 1px #bdbdbd;
 	text-align: center;
@@ -94,7 +103,10 @@ hr {
 
 /********** MEDIA QUERIES **********/
 
-@media screen {
+@media (min-width: 460px){
 	
+/*	* {
+		background-color: red;
+	}*/
 
 }
