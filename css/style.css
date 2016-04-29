@@ -3,6 +3,7 @@
 body {
 	background-image: url(../img/wood-background-2-edited.jpg);
 	margin-top: 0;
+	margin-bottom: 0;
 	display: flex;
 	flex-direction: column;
 }
@@ -11,10 +12,17 @@ h2,
 p {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 100;
-	font-size: 0.8em;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
 	margin: 30px 30px 10px;
 	color: #d3d3d3;
+}
+
+h2 {
+	font-size: 1em;
+}
+
+p{
+	font-size: 0.7em;
 }
 
 .wrapper {
@@ -29,7 +37,7 @@ p {
 }
 
 .banner {
-	margin-top: 2em;
+	margin-top: 1em;
 	display: flex;
 }
 
@@ -86,26 +94,44 @@ hr {
     max-width: 90%;
 }
 
+.text-image img {
+	padding: 0;
+}
 
 
 /********** BASE LAYOUT STYLES **********/
 
-/*.contact p {
-	display: inline-flex;
-	flex-direction: row;
-	justify-content: flex-start;
-}*/
+
+.nav {
+	margin-bottom: 20px;
+}
 
 .contact span {
 	display: flex;
+	margin-top: 0.8em;
 }
 
 .contact img {
 	margin-left: 45px;
 }
 
-.moffett-info p {
+.moffett-info,
+.footer {
 	text-align: center;
+}
+
+.moffett-info {
+	padding: 20px 0;
+	line-height: 150%;
+}
+
+.footer {
+	font-size: 0.8em;
+	margin-bottom: 5em;
+}
+
+.footer p {
+	margin-top: 0;
 }
 
 /********** MEDIA QUERIES **********/
